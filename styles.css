@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Crimson Text', serif;
+    height: 100%;
+    background-image: url("http://4.bp.blogspot.com/-qAqmJunsBIA/VG9lz3p2DqI/AAAAAAAAADg/UlXMKZnWd1o/s1600/desktop.jpg");
+}
+h1{
+    font-size: 40px;
+}
+hr{
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+#main {
+    box-shadow: 0 0 20px black;
+    margin: 0 auto;
+    width: 800px;
+    min-height: 100%;
+    background-image: url("//a.rgbimg.com/cache1vFngr/users/x/xy/xymonau/600/omLle8C.jpg") ;
+}
+
+.mainTitle {
+    text-align: center;
+}
+.mainTitle h1{
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+.mainTitle h3{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 40px 0 40px;
+}
+
+.item{
+    font-size: 16px;
+    background: black;
+    color: white;
+    width: 133px;
+    border: solid 1.5px black;
+    
+}
+
+.currentItem{
+    font-size: 17px;
+    background:yellow;
+    color: Black;
+    width: 133px;
+    border: solid 1.5px black;
+    
+}
+
+.content{
+    margin: 0 50px;
+}
+
+.flexBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexItem{
+    display: flex;
+    flex-direction: row;
+}
